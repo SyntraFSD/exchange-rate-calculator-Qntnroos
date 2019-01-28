@@ -1,0 +1,79 @@
+*{
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+*:focus {
+  outline: 0 !important;
+}
+::selection{
+  background-color: hotpink;
+}
+main{
+  max-width: 1000px;
+  width: 80%;
+  background-color: rgba(255,105,180,0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 3rem;
+  border: 1px solid hotpink;
+  border-radius: 0.125rem;
+}
+main h2{
+  padding-bottom: 1rem;
+}
+
+main input,button{
+  background-color: white;
+  padding: 0.3rem;
+  font-size: 1rem;
+  border-radius: 0.125rem;
+  border: 1px solid cornflowerblue;
+}
+main button{
+  cursor:pointer;
+}
+main input{
+  padding: .1rem;
+  margin-right: 1rem;
+}
+main label{
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+main button:hover{
+  background-color: cornflowerblue;
+  color: white;
+}
+main select{
+  font-size: 1rem;
+  border-radius: 0.125rem;
+  border: 1px solid cornflowerblue;
+  background-color: #fff;
+}
+main input:focus,select:focus{
+  border-color: hotpink;
+}
+.date{
+  margin-bottom: 1rem;
+}
+.switch{
+  margin: 0 0.5rem;
+}
+.exchangeButton{
+  margin-top: 1rem;
+}
+.result-container{
+  max-width: 20rem;
+  width: auto;
+  text-align: center;
+  border: 0.01rem solid cornflowerblue;
+  background-color: #fff;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
